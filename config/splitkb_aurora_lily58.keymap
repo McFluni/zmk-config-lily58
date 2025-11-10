@@ -74,10 +74,10 @@
                 <&inc_dec_kp DOWN_ARROW UP_ARROW>,
                 <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
 
-            /*  sensor-bindings =
-            *    <&inc_dec_kp PAGE_DOWN PAGE_UP>,
-             *   <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
-        */
+              sensor-bindings =
+                <&inc_dec_kp PAGE_DOWN PAGE_UP>,
+                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+        
         };
 
         lower_layer {
